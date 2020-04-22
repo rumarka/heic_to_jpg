@@ -1,2 +1,2 @@
-*.podspec linguist-detectable=false
-*.dart linguist-detectable=true
+*.podspec linguist-language=Dart
+Podfile linguist-language=Dart
