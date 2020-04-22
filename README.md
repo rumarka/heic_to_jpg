@@ -1,6 +1,6 @@
 # heic_to_jpg
 
-HEIC to JPG converter Flutter plugin.
+HEIC to JPG converter Flutter plugin
 
 ## Getting Started
 
