@@ -1,2 +1,2 @@
-*.rb linguist-detectable=false
+*.podspec linguist-detectable=false
 *.dart linguist-detectable=true
