@@ -19,8 +19,9 @@ public class SwiftHeicToJpgPlugin: NSObject, FlutterPlugin {
             result(nil)
             return
         }
-
-        let jpgPath = (docDir as NSString).appendingPathComponent(UUID().uuidString + ".jpeg")
+      
+        let fileName = ((heicPath as NSString).lastPathComponent as NSString).deletingPathExtension
+        let jpgPath = (docDir as NSString).appendingPathComponent(fileName + ".jpeg")
         
         if FileManager.default.createFile(atPath: jpgPath, contents: jpgImageData, attributes: nil) {
             result(jpgPath)
